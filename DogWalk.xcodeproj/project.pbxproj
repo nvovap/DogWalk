@@ -13,6 +13,7 @@
 		322B27E11DD32E7B0014F79B /* DogWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 322B27DF1DD32E7B0014F79B /* DogWalk.xcdatamodeld */; };
 		322B27E31DD32E7B0014F79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322B27E21DD32E7B0014F79B /* Assets.xcassets */; };
 		322B27E61DD32E7B0014F79B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322B27E41DD32E7B0014F79B /* LaunchScreen.storyboard */; };
+		322B27EE1DD36D830014F79B /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322B27ED1DD36D830014F79B /* CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		322B27E21DD32E7B0014F79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322B27E51DD32E7B0014F79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322B27E71DD32E7B0014F79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322B27ED1DD36D830014F79B /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				322B27D81DD32E7B0014F79B /* AppDelegate.swift */,
+				322B27ED1DD36D830014F79B /* CoreData.swift */,
 				322B27DA1DD32E7B0014F79B /* ViewController.swift */,
 				322B27DC1DD32E7B0014F79B /* Main.storyboard */,
 				322B27E21DD32E7B0014F79B /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322B27EE1DD36D830014F79B /* CoreData.swift in Sources */,
 				322B27DB1DD32E7B0014F79B /* ViewController.swift in Sources */,
 				322B27E11DD32E7B0014F79B /* DogWalk.xcdatamodeld in Sources */,
 				322B27D91DD32E7B0014F79B /* AppDelegate.swift in Sources */,
