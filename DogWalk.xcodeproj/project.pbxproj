@@ -14,6 +14,10 @@
 		322B27E31DD32E7B0014F79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322B27E21DD32E7B0014F79B /* Assets.xcassets */; };
 		322B27E61DD32E7B0014F79B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322B27E41DD32E7B0014F79B /* LaunchScreen.storyboard */; };
 		322B27EE1DD36D830014F79B /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322B27ED1DD36D830014F79B /* CoreData.swift */; };
+		322B27F31DD37E440014F79B /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322B27EF1DD37E440014F79B /* Dog+CoreDataClass.swift */; };
+		322B27F41DD37E440014F79B /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322B27F01DD37E440014F79B /* Dog+CoreDataProperties.swift */; };
+		322B27F51DD37E440014F79B /* Walk+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322B27F11DD37E440014F79B /* Walk+CoreDataClass.swift */; };
+		322B27F61DD37E440014F79B /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322B27F21DD37E440014F79B /* Walk+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		322B27E51DD32E7B0014F79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322B27E71DD32E7B0014F79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		322B27ED1DD36D830014F79B /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		322B27EF1DD37E440014F79B /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		322B27F01DD37E440014F79B /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		322B27F11DD37E440014F79B /* Walk+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataClass.swift"; sourceTree = "<group>"; };
+		322B27F21DD37E440014F79B /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 		322B27D71DD32E7B0014F79B /* DogWalk */ = {
 			isa = PBXGroup;
 			children = (
+				322B27EF1DD37E440014F79B /* Dog+CoreDataClass.swift */,
+				322B27F01DD37E440014F79B /* Dog+CoreDataProperties.swift */,
+				322B27F11DD37E440014F79B /* Walk+CoreDataClass.swift */,
+				322B27F21DD37E440014F79B /* Walk+CoreDataProperties.swift */,
 				322B27D81DD32E7B0014F79B /* AppDelegate.swift */,
 				322B27ED1DD36D830014F79B /* CoreData.swift */,
 				322B27DA1DD32E7B0014F79B /* ViewController.swift */,
@@ -143,9 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322B27F41DD37E440014F79B /* Dog+CoreDataProperties.swift in Sources */,
 				322B27EE1DD36D830014F79B /* CoreData.swift in Sources */,
+				322B27F61DD37E440014F79B /* Walk+CoreDataProperties.swift in Sources */,
+				322B27F31DD37E440014F79B /* Dog+CoreDataClass.swift in Sources */,
 				322B27DB1DD32E7B0014F79B /* ViewController.swift in Sources */,
 				322B27E11DD32E7B0014F79B /* DogWalk.xcdatamodeld in Sources */,
+				322B27F51DD37E440014F79B /* Walk+CoreDataClass.swift in Sources */,
 				322B27D91DD32E7B0014F79B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
